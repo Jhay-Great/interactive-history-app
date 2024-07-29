@@ -5,10 +5,14 @@
 :root {
     --color-white: #fff;
     --color-black: #000;
+    --color-primary: #35526F;
+    --color-primary-darker: #2C3E50;
 
     /* BACKGROUND COLORS */
     --bg-black: var(--color-black);
     --bg-white: var(--color-white);
+    --bg-primary: var(--color-primary);
+    --bg-primary-dark: var(--bg-primary-dark);
 
     /* FONT COLORS */
     --font-color-black: var(--color-black);
