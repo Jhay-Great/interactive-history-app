@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+
+    /* BACKGROUND COLORS */
+    --bg-black: var(--color-black);
+    --bg-white: var(--color-white);
+
+    /* FONT COLORS */
+    --font-color-black: var(--color-black);
+    --font-color-white: var(--color-white);
+
+}
+
+body {
+    width: 100%;
+
+    color: var(--font-color-black);
+    background-color: var(--bg-white);
+}
